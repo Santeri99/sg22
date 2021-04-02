@@ -3,6 +3,8 @@ Markus Erkkilä, Matleena Autio, Santeri Pirilä, Akseli Keinänen, Vadim Panfil
 31.3.2021
 */
 
+/* GLOBAL STYLES */
+
 /* HEADER  */
 
 .logo {
@@ -10,6 +12,23 @@ Markus Erkkilä, Matleena Autio, Santeri Pirilä, Akseli Keinänen, Vadim Panfil
     margin: auto;
 }
 
-.logo img {
-    max-width: 100%;
+/* MAIN */
+
+main {
+
+}
+
+/* FOOTER */
+
+footer {
+    /* Absolute position only for testing */
+    position: absolute;
+    bottom: 0;
+    background-color: #7D657A;
+    width: 100%;
+    padding: 10px;
+}
+
+.smiley {
+    width: 5em;
 }
