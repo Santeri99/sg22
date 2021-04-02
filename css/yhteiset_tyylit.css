@@ -1,0 +1,15 @@
+/*
+Markus Erkkilä, Matleena Autio, Santeri Pirilä, Akseli Keinänen, Vadim Panfilov
+31.3.2021
+*/
+
+/* HEADER  */
+
+.logo {
+    width: 20em;
+    margin: auto;
+}
+
+.logo img {
+    max-width: 100%;
+}
