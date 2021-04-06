@@ -45,6 +45,15 @@ a:hover {
     color:#F58220;
 }
 
+.main-nav .dropdown-menu {
+    background-color: none;
+    border: none;
+}
+
+.main-nav .dropdown-menu .dropdown-item {
+    background-color: none;
+}
+
 .dropdown-item:focus, .dropdown-item:hover 
 
 .active {
@@ -60,9 +69,6 @@ main {
 /* FOOTER */
 
 footer {
-    /* Absolute position only for testing */
-    position: absolute;
-    bottom: 0;
     background-color: #7D657A;
     width: 100%;
     padding: 10px;
