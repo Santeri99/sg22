@@ -7,6 +7,12 @@ Markus Erkkilä, Matleena Autio, Santeri Pirilä, Akseli Keinänen, Vadim Panfil
 
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
+/* VARIABLES */
+
+:root {
+    --orange: #F58220:
+}
+
 /* GLOBAL STYLES */
 
 .dropdown-menu {
@@ -14,7 +20,7 @@ Markus Erkkilä, Matleena Autio, Santeri Pirilä, Akseli Keinänen, Vadim Panfil
 }
 
 a:hover {
-    color: #F58220;
+    color: var(--orange);
 }
 
 /* HEADER  */
