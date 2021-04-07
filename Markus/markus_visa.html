@@ -16,13 +16,13 @@
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/yhteiset_tyylit.css">
+    <link rel="stylesheet" href="/css/yhteiset_tyylit.css">
 
     <script>
         // Load header and footer
         $(() => {
-            $("#header").load("header.html");
-            $("footer").load("footer.html");
+            $("#header").load("../header.html");
+            $("footer").load("../footer.html");
         })
     </script>
 </head>
@@ -32,10 +32,10 @@
 
     <main>
         <div class="container">
-            <div class="row mt-5">
-                <div class="col-9 col-sm-9 col-md-10 col-lg-5 text-center mx-auto">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-sm-7 col-lg-3 text-center mx-auto">
                     <div class="card">
-                        <img class="card-img-top" src="/imgs/guitar.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/Markus/images/guitar.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h4 class="card-title">Musavisa</h4>
                           <p class="card-text">
@@ -45,13 +45,12 @@
                         </div>
                       </div>
                 </div>
-            </div>
-              
+            </div>  
         </div>
     </main>
 
     <footer id="footer"></footer>
-    <script src="js/skole.js"></script>
+    <script src="/js/skole.js"></script>
 
 </body>
 
